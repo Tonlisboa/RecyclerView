@@ -22,7 +22,7 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
     private RecyclerView recyclerView;
-    private List<Filme> listafilmes = new ArrayList<>();
+    private final List<Filme> listafilmes = new ArrayList<>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
